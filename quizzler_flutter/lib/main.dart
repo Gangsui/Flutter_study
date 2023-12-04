@@ -34,7 +34,32 @@ class _QuizPageState extends State<QuizPage> {
   List <Widget> scoreK = [];
 
   QuizBrain questionbank = QuizBrain();
+  int rightAnswer = 0;
+  int bottomCount = 0;
 
+  void checkAnswer(bool check){
+
+    bool correctAnswer = questionbank.checkQuestion();
+
+    setState(() {
+      if (bottomCount > 12){
+        scoreK.removeRange(0,10);
+        bottomCount = 3;
+      }
+
+      if (correctAnswer == check){
+        scoreK.add(Icon(Icons.check,color: Colors.green,));
+        rightAnswer++;
+        bottomCount++;
+      }else {
+        scoreK.add(Icon(Icons.close,color: Colors.red,));
+        bottomCount++;
+      }
+      questionbank.currentNumber(context,rightAnswer);
+
+
+    });
+  }
 
   int quizNumber =0;
   @override
@@ -74,18 +99,7 @@ class _QuizPageState extends State<QuizPage> {
               ),
 
               onPressed: () {
-                bool correctAnswer = questionbank.checkQuestion();
-
-                setState(() {
-                if (correctAnswer == true){
-                  scoreK.add(Icon(Icons.check,color: Colors.green,));
-                }else {
-                  scoreK.add(Icon(Icons.close,color: Colors.red,));
-                }
-                questionbank.currentNumber();
-
-
-              });
+                checkAnswer(true);
                 //The user picked true.
               },
             ),
@@ -103,18 +117,8 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
-                bool correctAnswer = questionbank.checkQuestion();
+                checkAnswer(true);
 
-                setState(() {
-                  if (correctAnswer == true){
-                    scoreK.add(Icon(Icons.check,color: Colors.green,));
-                  }else {
-                    scoreK.add(Icon(Icons.close,color: Colors.red,));
-                  }
-                  questionbank.currentNumber();
-
-
-                });
               },
             ),
           ),
