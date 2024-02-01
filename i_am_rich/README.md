@@ -7,6 +7,5 @@
 - **기본 UI 구성**: 앱의 기본적인 사용자 인터페이스를 구성하는 방법을 배웠습니다.
 - **Flutter의 기본 개념 이해**: Flutter 애플리케이션 개발의 기본적인 개념과 구조에 대한 이해를 증진시켰습니다.
 
-이 프로젝트는 Flutter 초보자들에게 필수적인 위젯 사용법과 앱 구조에 대한 기본적인 이해를 제공합니다.
 
 ![Simulator Screenshot - iPhone Xʀ - 2024-02-01 at 09 25 22](https://github.com/Gangsui/Flutter_study/assets/111417485/eb2b3446-026c-48d5-bec5-b0a62e756691)
