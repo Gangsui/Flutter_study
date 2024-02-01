@@ -1,16 +1,10 @@
-# i_am_poor
 
-A new Flutter project.
+## I am Poor 프로젝트
 
-## Getting Started
+`I am Poor` 프로젝트는 `I am Rich` 프로젝트와 유사한 방식으로 진행되었습니다. 이 프로젝트에서는 `I am Rich` 프로젝트에서 배운 내용을 바탕으로, 동일한 Flutter 위젯과 개념을 적용하면서 약간의 변형을 추가하였습니다. 주요 내용은 다음과 같습니다:
 
-This project is a starting point for a Flutter application.
+- **Scaffold 위젯 재사용**: `I am Rich` 프로젝트에서 배운 Scaffold 위젯을 재사용하여 기본적인 앱 구조를 구현했습니다.
+- **UI 창의성 적용**: 기본적인 UI 구성 요소를 사용하되, 창의적인 요소를 추가하여 다른 시각적 경험을 제공합니다.
+- **Flutter 기본 개념 복습 및 확장**: 이미 배운 Flutter의 기본 개념들을 복습하고, 새로운 아이디어를 통해 이를 확장했습니다.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+이 프로젝트는 기존 지식의 재활용과 함께 새로운 방향성을 탐색하는 데 중점을 두었습니다.
