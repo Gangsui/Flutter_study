@@ -1,16 +1,14 @@
-# dicee
+## Dice 프로젝트
 
-A new Flutter project.
+`Dice` 프로젝트는 사용자가 화면에 표시된 주사위를 탭할 때마다 랜덤한 숫자로 주사위가 변경되는 간단한 어플리케이션을 개발하는 것을 목표로 했습니다. 이 프로젝트는 이전에 `MiCard`와 `I am Poor` 프로젝트에서 학습한 위젯들을 활용하여 구현되었습니다. 주요 내용은 다음과 같습니다:
 
-## Getting Started
+- **랜덤 숫자 생성**: 사용자가 주사위를 탭할 때마다 랜덤한 숫자를 생성하여 주사위의 면을 변경합니다.
+- **상호작용성 증대**: 사용자의 탭에 반응하여 UI가 동적으로 변화하는 방식을 구현했습니다.
+- **학습한 위젯의 적용**: `MiCard`와 `I am Poor` 프로젝트에서 배운 위젯들을 활용하여 사용자 인터페이스를 설계하고 구현했습니다.
+- **Stateful 위젯 사용**: 주사위의 상태 변화를 관리하기 위해 Flutter의 Stateful 위젯을 사용했습니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트는 Flutter에서 상태 관리와 사용자 인터랙션을 다루는 기본적인 방법을 실습하고 이해하는 데 중점을 두었습니다. 간단하지만 매력적인 인터페이스와 동적인 기능을 통해 사용자 경험을 향상시키는 방법을 탐구했습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Gangsui/Flutter_study/assets/111417485/f974d9f4-5751-4b07-9736-da111986699c
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
