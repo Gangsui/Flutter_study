@@ -1,16 +1,14 @@
-# magic_8_ball
+## Magic 8 Ball 프로젝트
 
-A new Flutter project.
+`Magic 8 Ball` 프로젝트는 전통적인 Magic 8 Ball 장난감을 어플로 구현한 것입니다. 이 프로젝트를 통해, 저는 Flutter의 Stateful과 Stateless 위젯에 대해 깊이 있게 배우고 이를 실제로 적용해 보는 기회를 가졌습니다. 프로젝트를 진행하며 얻은 주요 학습 포인트는 다음과 같습니다:
 
-## Getting Started
+- **Stateful과 Stateless 위젯의 차이**: Flutter에서의 Stateful과 Stateless 위젯 간의 차이점을 이해하고, 각각의 위젯이 언제 사용되는지 학습했습니다.
+- **사용자 상호작용 구현**: 사용자가 앱을 탭할 때마다 랜덤한 응답을 보여주는 상호작용을 구현함으로써, 동적인 UI 요소를 만드는 방법을 배웠습니다.
+- **UI 및 UX 디자인 경험**: 사용자 경험을 고려하여 앱의 인터페이스를 설계하고, 사용자의 입력에 따라 UI가 어떻게 변화하는지 관찰했습니다.
+- **상태 관리 실습**: 사용자의 행동에 응답하여 상태가 변경되는 위젯을 만들고 관리하는 방법을 실습하면서 상태 관리의 중요성을 이해했습니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트는 사용자의 상호작용에 반응하는 어플리케이션을 만드는 데 필요한 기본적인 Flutter 기술을 익히는 데 도움이 되었습니다. 또한, 재미있고 동적인 앱을 만드는 과정에서 프로그래밍에 대한 저의 이해를 한층 더 깊게 할 수 있었습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Gangsui/Flutter_study/assets/111417485/09f923b6-4d49-4871-a2f0-e4e6bb6d9f16
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
