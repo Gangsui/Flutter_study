@@ -1,16 +1,14 @@
-# xylophone
+## Xylophone 프로젝트
 
-A new Flutter project.
+`Xylophone` 프로젝트는 간단한 실로폰 앱을 개발하는 것을 목표로 했습니다. 이 앱에서는 다양한 색상의 타일을 누르면 해당 타일에 맞는 실로폰 소리가 나옵니다. 이 프로젝트를 통해, 저는 Flutter와 오디오 플레이어 패키지를 사용하여 인터랙티브한 음악 앱을 만드는 방법을 배웠습니다. 주요 학습 내용은 다음과 같습니다:
 
-## Getting Started
+- **오디오 재생**: `audioplayers` 패키지를 사용하여 로컬 에셋에서 오디오 파일을 재생하는 방법을 학습했습니다.
+- **동적 UI 생성**: 색상별로 다른 소리를 내는 여러 개의 타일을 구현하여, 사용자가 각각의 타일을 탭할 때마다 다른 소리가 나도록 했습니다.
+- **사용자 상호작용 구현**: `GestureDetector` 위젯을 사용하여 사용자의 탭에 반응하는 UI 요소를 만들었습니다.
+- **레이아웃 디자인**: `Column` 위젯과 `Expanded` 위젯을 활용하여 화면 전체에 걸쳐 균일하게 분포된 타일을 디자인했습니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트를 통해 저는 사용자 인터랙션과 오디오 재생 기능을 결합하여 애플리케이션을 만드는 경험을 할 수 있었습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Gangsui/Flutter_study/assets/111417485/62078353-d6c4-423b-a103-b95392f6215b
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
