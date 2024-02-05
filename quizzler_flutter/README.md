@@ -1,16 +1,17 @@
-# quizzler_flutter
+## Quizzler 프로젝트
 
-A new Flutter project.
+`Quizzler`는 간단한 퀴즈 앱으로, 사용자에게 진위 여부를 판단하는 질문들을 제시하고, 사용자의 응답에 따라 정답 여부를 알려줍니다. 이 프로젝트를 통해, 저는 Flutter 앱 개발의 여러 중요한 개념들을 실습하고 이해하는 기회를 가졌습니다. 프로젝트를 진행하며 다룬 주요 내용은 다음과 같습니다:
 
-## Getting Started
+- **퀴즈 로직 구현**: 사용자의 선택에 따라 정답을 확인하고 점수를 계산하는 로직을 구현했습니다.
+- **Stateful 위젯 활용**: 사용자의 상호작용에 따라 변화하는 UI를 관리하기 위해 Stateful 위젯을 사용했습니다.
+- **커스텀 클래스 및 객체 사용**: 퀴즈의 질문과 답변을 관리하기 위한 커스텀 클래스를 생성하고 객체를 활용했습니다.
+- **진위 여부 버튼 디자인**: 사용자가 'True' 또는 'False'를 선택할 수 있는 버튼을 디자인하고 구현했습니다.
+- **점수 표시**: 사용자가 맞힌 정답의 수를 표시하는 점수판을 구현했습니다.
+- **종료 메커니즘 및 재시작 옵션**: 모든 질문에 답하면 결과를 보여주고, 재시작 옵션을 제공합니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트를 통해 저는 Dart 프로그래밍 언어의 기본적인 구조, Flutter의 위젯 시스템, 그리고 사용자 상호작용을 처리하는 방법에 대해 더 깊이 이해할 수 있었습니다. 또한, 객체 지향 프로그래밍의 원리를 실제 어플리케이션에 적용하는 방법을 배웠습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/Gangsui/Flutter_study/assets/111417485/c8bacd69-647f-4c4e-abcf-1f695da12223
+
