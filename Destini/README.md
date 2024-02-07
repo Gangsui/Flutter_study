@@ -11,5 +11,9 @@
 
 
 
-Uploading Simulator Screen Recording - iPhone Xʀ - 2024-02-07 at 08.33.53.mp4…
+https://github.com/Gangsui/Flutter_study/assets/111417485/d82a3dee-3d51-4440-97c9-9e6159ed822a
+
+
+
+
 
