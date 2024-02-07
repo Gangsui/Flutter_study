@@ -1,16 +1,15 @@
-# bmi_calculator
+## BMICalculator 프로젝트
 
-A new Flutter project.
+`BMICalculator`는 사용자의 키와 몸무게를 입력받아 BMI(체질량 지수)를 계산하고, 그 결과에 따른 건강 상태를 알려주는 어플리케이션입니다. 이 프로젝트를 진행하며, 저는 이전 프로젝트에서 배운 Flutter 개발 기술과 개념을 활용하여, 사용자 친화적이고 시각적으로 매력적인 앱을 구현했습니다. 주요 적용 사항은 다음과 같습니다:
 
-## Getting Started
+- **사용자 인터페이스 구성**: 이전에 배운 커스텀 위젯을 생성하고 활용하여, 사용자의 키, 몸무게, 성별을 입력받는 인터페이스를 구성했습니다.
+- **동적 상호작용**: `GestureDetector` 및 `Slider` 위젯을 사용하여 사용자의 입력을 동적으로 받고, 사용자의 선택에 따라 UI를 업데이트했습니다.
+- **상태 관리**: `setState`를 활용하여 사용자의 입력에 따라 앱의 상태를 변경하고, 그에 따른 결과를 실시간으로 사용자에게 피드백했습니다.
+- **네비게이션과 라우팅**: 사용자가 BMI 계산 결과를 보기 위해 결과 페이지로 네비게이션하는 기능을 구현하여, 멀티-스크린 앱의 기본 구조를 실습했습니다.
+- **결과 로직 구현**: 사용자의 BMI를 계산하고, 그에 따른 건강 상태를 분석하여 사용자에게 조언을 제공하는 기능을 구현했습니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트를 통해 저는 Flutter 앱 개발의 다양한 측면에서 심화된 경험을 쌓을 수 있었습니다. 특히, 사용자의 입력을 받고 처리하는 인터랙티브한 앱의 개발 과정에서, 사용자 경험을 최적화하는 방법과 Flutter의 여러 고급 기능을 활용하는 방법에 대해 더 깊이 이해할 수 있었습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Gangsui/Flutter_study/assets/111417485/cc329b2f-bc61-41cd-911e-99423a37aea7
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
