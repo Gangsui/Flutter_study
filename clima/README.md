@@ -1,16 +1,12 @@
-# clima
+## Clima 프로젝트
 
-A new Flutter project.
+`Clima`는 사용자의 현재 위치를 기반으로 날씨 정보를 제공하는 모던한 날씨 앱입니다. 이 앱은 사용자에게 정확한 날씨 데이터를 실시간으로 제공하기 위해 OpenWeatherMap API를 사용합니다. 이 프로젝트를 통해 저는 이전 프로젝트들에서 배운 Flutter 개발 기술을 활용하여, 복잡한 기능을 가진 실용적인 앱을 구현하는 방법을 배웠습니다. 주요 학습 포인트는 다음과 같습니다:
 
-## Getting Started
+- **플랫폼별 위치 데이터 수집**: 사용자의 현재 위치를 얻기 위해 `Geolocator` 패키지를 사용하고, 다양한 플랫폼에서 위치 데이터를 수집하는 방법을 배웠습니다.
+- **비동기 프로그래밍**: Dart의 Futures, Async & Await를 사용하여 비동기 네트워킹 요청을 처리하는 방법을 실습했습니다.
+- **API 사용 및 네트워킹**: HTTP 패키지를 사용하여 네트워크 요청을 보내고, OpenWeatherMap API로부터 날씨 데이터를 가져오는 방법을 배웠습니다.
+- **JSON 파싱**: API로부터 받은 JSON 데이터를 파싱하고, 동적 타입을 활용하여 앱에서 사용할 수 있는 형태로 변환하는 방법을 학습했습니다.
+- **사용자 인터페이스 및 사용자 경험**: 로딩 스피너를 표시하여 사용자가 데이터 로딩을 기다리는 동안의 경험을 개선했습니다. 또한, 사용자가 도시 이름을 입력하여 날씨를 조회할 수 있는 기능을 추가하여 앱의 유연성을 높였습니다.
+- **상태 관리 및 네비게이션**: 사용자의 선택과 API로부터 받은 데이터에 따라 UI를 업데이트하고, 여러 화면 간의 데이터 전달 및 네비게이션을 관리하는 방법을 배웠습니다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`Clima` 프로젝트를 통해, 저는 모던한 날씨 앱 개발을 위한 필수적인 Flutter 개발 기술과 패턴을 실습하고 이해할 수 있었습니다. 특히, 실시간으로 변하는 데이터를 사용자에게 효과적으로 제공하는 방법과 사용자 경험을 최적화하는 UI/UX 디자인 기술에 대해 깊이 있게 학습했습니다.
