@@ -1,16 +1,17 @@
-# bitcoin
+## Bitcoin Ticker 프로젝트
 
-A new Flutter project.
+`Bitcoin Ticker`는 다양한 나라의 통화로 비트코인과 다른 암호화폐들의 가격을 보여주는 앱입니다. 이 프로젝트를 통해, 저는 암호화폐의 실시간 가격 정보를 제공하는 외부 API를 활용하는 방법을 배웠습니다. 주요 학습 포인트는 다음과 같습니다:
 
-## Getting Started
+- **외부 API 활용**: `http` 패키지를 사용하여 네트워크 요청을 보내고, CoinAPI로부터 암호화폐 가격 데이터를 가져오는 방법을 실습했습니다.
+- **동적 UI 구성**: 사용자가 선택한 통화에 따라 동적으로 가격 정보를 업데이트하는 UI를 구현했습니다. 이를 위해 `DropdownButton` 및 `CupertinoPicker` 위젯을 플랫폼에 따라 조건부로 렌더링하는 방법을 배웠습니다.
+- **비동기 프로그래밍**: Dart의 비동기 프로그래밍 패턴인 `async`와 `await`를 사용하여 비동기적으로 데이터를 처리하고 UI를 업데이트하는 방법을 학습했습니다.
+- **JSON 데이터 파싱**: API로부터 받은 JSON 형식의 데이터를 파싱하여 앱에서 사용할 수 있는 데이터 형태로 변환하는 과정을 배웠습니다.
+- **플랫폼별 UI 구현**: Android와 iOS 각각의 플랫폼에 맞는 사용자 인터페이스를 구현하여, 앱의 사용성을 개선했습니다. 이를 통해 플랫폼별 최적화된 사용자 경험을 제공하는 방법을 이해했습니다.
+- **예외 처리**: 네트워크 요청 중 발생할 수 있는 예외 사항을 처리하고 사용자에게 적절한 피드백을 제공하는 방법을 배웠습니다.
 
-This project is a starting point for a Flutter application.
+이 프로젝트를 진행하며, 저는 암호화폐 가격 정보를 실시간으로 제공하는 앱을 구현하는 과정에서 Flutter 앱 개발에 필요한 중요한 개념과 기술들을 실습하고 깊이 이해할 수 있었습니다. 특히, 외부 API와의 통신, 비동기 프로그래밍, 그리고 다양한 플랫폼에서의 UI 구성 방법에 대한 지식을 확장할 수 있었습니다.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/Gangsui/Flutter_study/assets/111417485/a4a3c125-2b1a-4041-8873-de3e247316d5
+
